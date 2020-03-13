@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.canvas__container {
+    width: 480px;
+    height: 480px;
+    padding: 30px;
+    background-color: #EEEEEE;
+}
+
+.btn__container,
+.download__container {
+    width: 480px;
+    text-align: center;
+}
+
+.generate__btn,
+.download__btn {
+    font-size: 1.2em;
+    margin-top: 1em;
+    background-color: #EEEEEE;
+    text-decoration: none;
+    cursor: pointer;
+    color: #333;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 4px;
+    user-select: none;
+}
